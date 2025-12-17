@@ -1,0 +1,39 @@
+# Node
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-error.log*
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Next.js
+.next/
+out/
+dist/
+
+# Strapi
+.cache/
+build/
+.tmp/
+public/uploads/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Coverage / test
+coverage/
+
+# Docker
+*.pid
